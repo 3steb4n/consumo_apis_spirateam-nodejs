@@ -1,0 +1,29 @@
+{
+  "name": "consumo_apis_spirateam-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3steb4n/consumo_apis_spirateam-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3steb4n/consumo_apis_spirateam-nodejs/issues"
+  },
+  "homepage": "https://github.com/3steb4n/consumo_apis_spirateam-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
