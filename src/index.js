@@ -66,5 +66,5 @@ function callFunctionUpdateTestRun( inputDate, countCasesFailed = 0 ) {
 }
 
 module.exports = {
-    updateTestCaseTestRun
+    callFunctionUpdateTestRun
 }
