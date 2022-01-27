@@ -1,6 +1,6 @@
 {
   "name": "npm-consumo-apis-spirateam",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Se cambia los comandos a utilizar desde npm.",
   "main": "src/index.js",
   "type": "module",
