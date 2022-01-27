@@ -1,8 +1,8 @@
 {
-  "name": "consumo_apis_spirateam-nodejs",
+  "name": "npm-consumo-apis-spirateam",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Este modulo se trata de cambiar el estado de un caso de prueba de SpiraTeam, e implementarlo con cypress.",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "serve": "nodemon index.js"
