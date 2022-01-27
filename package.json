@@ -1,7 +1,7 @@
 {
   "name": "npm-consumo-apis-spirateam",
-  "version": "1.0.0",
-  "description": "Este modulo se trata de cambiar el estado de un caso de prueba de SpiraTeam, e implementarlo con cypress.",
+  "version": "1.0.1",
+  "description": "Se cambia los comandos a utilizar desde npm.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
