@@ -1,7 +1,7 @@
 {
   "name": "npm-consumo-apis-spirateam",
-  "version": "1.0.2",
-  "description": "Se cambia los comandos a utilizar desde npm.",
+  "version": "1.1.0",
+  "description": "Se añade función para obtener la fecha que maneja SpiraTeam.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
