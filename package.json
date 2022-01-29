@@ -1,10 +1,11 @@
 {
-  "name": "npm-consumo-apis-spirateam",
-  "version": "2.0.0",
-  "description": "Se cambia validación del usuario y elimina algunos archivos.",
-  "main": "src/index.js",
+  "name": "servicio-test_run_spira",
+  "version": "3.0.0",
+  "description": "Consumo de las distintas api's de SpiraTeam para integrarlo con Cypress.",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3steb4n/consumo_apis_spirateam-nodejs.git"
@@ -19,5 +20,8 @@
   "dependencies": {
     "express": "^4.17.2",
     "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
