@@ -1,12 +1,10 @@
 {
   "name": "npm-consumo-apis-spirateam",
-  "version": "1.1.0",
-  "description": "Se añade función para obtener la fecha que maneja SpiraTeam.",
+  "version": "2.0.0",
+  "description": "Se cambia validación del usuario y elimina algunos archivos.",
   "main": "src/index.js",
   "type": "module",
-  "scripts": {
-    "serve": "nodemon index.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3steb4n/consumo_apis_spirateam-nodejs.git"
@@ -19,11 +17,7 @@
   },
   "homepage": "https://github.com/3steb4n/consumo_apis_spirateam-nodejs#readme",
   "dependencies": {
-    "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "node-fetch": "^3.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
