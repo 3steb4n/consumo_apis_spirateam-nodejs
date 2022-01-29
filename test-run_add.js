@@ -24,8 +24,9 @@ function callFunctionUpdateTestRun( inputDate ) {
             throw { estado: 400, mensaje: "El parámetro idTestCase es requerido."};
         } else if( !inputDate.idTestSet ) {
             throw { estado: 400, mensaje: "El parámetro idTestSet es requerido."};
-        } 
-         else {
+        } else if( inputDate.testFallido === undefined ) {
+            throw { estado: 400, mensaje: "El parámetro testFallido es requerido."};
+        } else {
             updateTestCaseTestRun( inputDate ).then( async ( arraySteps ) => {
                 arraySteps[0].ConcurrencyDate = generateParseDate(  );
                 arraySteps[0].LastUpdateDate = generateParseDate(  );
